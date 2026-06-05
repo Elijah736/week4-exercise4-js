@@ -1,39 +1,3 @@
-// // const userinput = prompt("Enter name:");
-
-// // Done by Elijah
-// function validation(userinput) {
-//     try {// If left blank will display "cannot be null"
-//         if (userinput === null || userinput === undefined) {
-//             throw new Error("Cannot be null, Enter your name")
-//         }
-//         if (typeof userinput !== "string") {
-//             // Must be a string 
-//             throw new TypeError("Must be your name")
-//         }
-//     }   catch (error) {
-//         console.log(`${error.name}: ${error.message}`);
-//     }
-// }
-
-// function error(input) {
-//     try {
-//         // Checks if its a number
-//            if (typeof input === "number") {
-//         throw new TypeError("Cannot be a a number")
-//     }
-
-//     }  catch (error) {
-//             console.log(`${error.name}: ${error.message}`);
-//     }
-// }
-
-
-
-// // Demostrating error message for when I enter a number
-// console.log(validation(13232))
-// console.log(error(1223))
-
-
 
 // Done by Lukho
 // 1. FUNCTION THAT VALIDATES USER INPUT
